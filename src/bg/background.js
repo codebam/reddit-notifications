@@ -1,7 +1,7 @@
 var inbox = [];
 window.setInterval(function() {
     var reddit = $.ajax({
-        url: // insert "unread messages" json feed from https://www.reddit.com/prefs/feeds/
+        url:url.conf // insert "unread messages" json feed from https://www.reddit.com/prefs/feeds/
         success: function(data) {
             for (i = 0; i < data.data.children.length; ++i) {
                 if ($.inArray(data.data.children[i].data.id, inbox) == -1) {
