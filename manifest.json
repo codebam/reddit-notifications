@@ -15,7 +15,7 @@
       "js/jquery/jquery.min.js",
       "src/bg/background.js"
     ],
-    "persistent": false
+    "persistent": true
   },
   "page_action": {
     "default_icon": "icons/icon19.png",
